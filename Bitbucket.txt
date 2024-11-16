@@ -1,0 +1,22 @@
+ git init
+  git clone https://s88xmqgwcb@bitbucket.org/mybitbucketprojectt/bitbucketproject.git
+  ls
+  cd bitbucketproject
+  ls
+  echo "Eshita" > bucket.txt
+  ls
+  git add bucket.txt
+   git commit -m "world"
+  git push origin main
+  git status
+  git pull origin
+ git checkout main
+  git merge new-feature
+  git checkout -b new-feature
+ echo "This is a new feature for Bitbucket." >> README.md
+  git add README.md
+  git commit -m "Add new feature"
+  git push -u origin new-feature
+  git merge new-feature
+  git push
+  git log --oneline --graph --all

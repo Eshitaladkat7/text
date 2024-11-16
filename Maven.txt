@@ -1,0 +1,22 @@
+Install Eclipse.
+.
+Google Chrome - open site spring initialize
+Project - maven
+language - java
+Spring Boot - 3.3.4
+Project metadata
+Group - com.example 1
+artifact- demo1
+Name - demo 1
+Description - (as it is)
+Package - (as it is)
+packaging- Tar
+Java - 17
+Dependencies - add spring web, spring data jpa.
+• click generate - Zip file gets downloaded.
+• Extract zip file.
+• Open Eclipse.
+File → import → maven → existing maven -> browser → downloads
+→ demol → tick demo1 → dinish
+• src/downloads ......
+Right -> click → Run as 1 Java...

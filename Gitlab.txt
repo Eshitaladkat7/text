@@ -1,0 +1,19 @@
+git init
+ git clone https://gitlab.com/demo3454438/gitlabproject.git
+ ls
+ cd gitlabproject
+ echo "Hello, GitLab!" > README.md
+ git add README.md
+ git commit -m "Initial commit"
+ git remote add origin https://gitlab.com/demo3454438/gitlabproject.git
+ git push -u origin main
+ git checkout -b new-feature
+ echo "This is a new feature." >> README.md
+ git add README.md
+ git commit -m "Add new feature"
+ git push -u origin new-feature
+ git checkout main
+ git pull
+ git merge new-feature
+ git push
+ git log --oneline --graph --all
